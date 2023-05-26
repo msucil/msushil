@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import styles from './page.module.css'
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description} style={{ display: 'block' }}>
+    <main >
+      <div  style={{ display: 'block' }}>
         <p style={{ marginBottom: '1rem' }}>Hi! I am Sushil Ale, Software Engineer from Nepal</p>
         <p style={{ marginBottom: '1rem' }}>I have been working on Software Industry from more than 5 years</p>
         <p style={{ marginBottom: '1rem' }}>Connect with me at: 
